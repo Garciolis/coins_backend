@@ -1,7 +1,6 @@
 <?php
 
-	require_once "config.php";
-	require_once "functions.php";
+	require_once "autoload.php";
  
 	$method = $_SERVER['REQUEST_METHOD'];
 	$request = explode('/', trim($_SERVER['PATH_INFO'],'/'));
@@ -32,5 +31,5 @@
 	
 	//header('Content-Type: application/json');
 	echo json_encode($response);
-
+	
 ?>
