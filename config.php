@@ -1,17 +1,9 @@
 <?php
-
-	$config = [
-		"DB_HOST" => "samplehost",
-		"DB_USER" => "sampleuser",
-		"DB_PASSWORD" => "samplepass",
-		"DB_USERS_TABLE" => "users",
-		"DB_COINS_TABLE" => "coins"
-	];
 	
-	$DB_HOST = "samplehost";
-	$DB_USER = "sampleuser";
-	$DB_PASSWORD = "samplepass";
-	$DB_USERS_TABLE = "users";
-	$DB_COINS_TABLE = "coins";
+	define("DB_HOST", "samplehost");
+	define("DB_USER", "sampleuser");
+	define("DB_PASSWORD", "samplepass");
+	define("DB_USERS_TABLE", "users");
+	define("DB_COINS_TABLE", "coins");
 	
 ?>
